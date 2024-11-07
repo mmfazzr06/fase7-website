@@ -1,3 +1,40 @@
+/* Gaya umum untuk desktop atau layar besar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk tampilan di perangkat dengan lebar layar maksimal 768px (tablet dan ponsel) */
+@media screen and (max-width: 768px) {
+    .navbar {
+        background-color: #333;
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .description {
+        font-size: 14px;
+    }
+}
+
+/* Gaya untuk tampilan di perangkat dengan lebar layar maksimal 480px (ponsel) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+    .navbar {
+        font-size: 12px;
+    }
+    .description {
+        font-size: 12px;
+    }
+}
+
 .jumbotron {
     background-image: url(IMG_9143.JPG);
     background-size: contain;
@@ -88,6 +125,44 @@
 .card-img-top:hover {
     transform: scale(1.1);
 }
+/* Styling the cards */
+.card {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Image */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Centering Text */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.875rem;
+    }
+}
+
 .Copyright{
     color: rgb(0, 0, 0);
 }
