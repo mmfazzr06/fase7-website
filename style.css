@@ -160,49 +160,78 @@ body {
 
 /* Daftar Section */
 /* Bagian container pendaftaran */
-.pendaftaran-lomba {
-  background-color: #f0f0f0; /* Warna latar belakang abu-abu muda */
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
+#daftar {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    border: 2px solid #dee2e6; /* Border around the section */
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
 
-/* Judul pendaftaran */
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+#daftar h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff; /* Border under heading */
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
-.daftar {
-  text-align: center;
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 20px;
+#daftar .description {
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    border: 1px solid #dee2e6; /* Border around the description */
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ffffff; /* White background for the description */
 }
 
-.description {
-  text-align: justify;
-  line-height: 1.5;
-  color: #666;
+#daftar .button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #007bff; /* Border on the button */
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
-.button {
-  display: inline-block;
-  padding: 15px 30px;
-  background-color: #4CAF50; /* Hijau */
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+#daftar .button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
 }
 
-.button:hover {
-  background-color: #3e8e41;
+#daftar .contact-info {
+    font-size: 1rem;
+    color: #555555;
+    margin-top: 20px;
+    line-height: 1.4;
+    border: 1px solid #dee2e6; /* Border around the contact info */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+#daftar .contact-info span {
+    font-weight: bold;
+    color: #333333;
+}
+
+#daftar .disclaimer {
+    font-size: 0.875rem;
+    color: #888888;
+    margin-top: 15px;
+    border-top: 1px solid #dee2e6; /* Border above the disclaimer */
+    padding-top: 10px;
 }
 
 .contact-info {
