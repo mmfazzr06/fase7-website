@@ -159,78 +159,43 @@ body {
 }
 
 /* Daftar Section */
-#daftar {
-    text-align: center;
-    padding: 50px 0;
-    background-color: #f8f9fa;
-    border: 2px solid #dee2e6; /* Border around the section */
-    border-radius: 8px;
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+/* Bagian container pendaftaran */
+.pendaftaran-lomba {
+  background-color: #f0f0f0; /* Warna latar belakang abu-abu muda */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-#daftar h1 {
-    font-size: 2.5rem;
-    color: #343a40;
-    font-weight: bold;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #007bff; /* Border under heading */
-    display: inline-block;
-    padding-bottom: 5px;
+/* Judul pendaftaran */
+.pendaftaran-lomba h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-#daftar .description {
-    font-size: 1.1rem;
-    color: #555555;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    border: 1px solid #dee2e6; /* Border around the description */
-    border-radius: 8px;
-    padding: 15px;
-    background-color: #ffffff; /* White background for the description */
+/* Paragraf informasi */
+.pendaftaran-lomba p {
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
-#daftar .button {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: #007bff;
-    color: #ffffff;
-    font-size: 1rem;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 5px;
-    border: 2px solid #007bff; /* Border on the button */
-    transition: background-color 0.3s, border-color 0.3s;
+/* Tombol isi formulir */
+.pendaftaran-lomba button {
+  background-color: #4CAF50; /* Warna hijau */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-#daftar .button:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
-}
-
-#daftar .contact-info {
-    font-size: 1rem;
-    color: #555555;
-    margin-top: 20px;
-    line-height: 1.4;
-    border: 1px solid #dee2e6; /* Border around the contact info */
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #ffffff;
-}
-
-#daftar .contact-info span {
-    font-weight: bold;
-    color: #333333;
-}
-
-#daftar .disclaimer {
-    font-size: 0.875rem;
-    color: #888888;
-    margin-top: 15px;
-    border-top: 1px solid #dee2e6; /* Border above the disclaimer */
-    padding-top: 10px;
+/* Informasi kontak */
+.pendaftaran-lomba .kontak {
+  font-size: 14px;
+  color: #888;
+  margin-top: 20px;
 }
 
 /* Footer */
