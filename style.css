@@ -93,34 +93,50 @@ body {
     color: #333;
 }
 
-.card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: none;
-    border-radius: 10px;
-    overflow: hidden;
+.card-img-top {
     transition: transform 0.3s ease;
 }
 
-.card:hover {
-    transform: translateY(-10px);
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+/* Styling the cards */
+.card {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Responsive Image */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Centering Text */
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
+    color: #333;
 }
 
-.card-text a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #0d6efd;
-    text-decoration: none;
+.card-text {
+    font-size: 1rem;
+    color: #555;
 }
 
-.card-text a:hover {
-    text-decoration: underline;
-}
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1rem;
+    }
 
+    .card-text {
+        font-size: 0.875rem;
+    }
+}
 /* Juknis Section */
 .contact {
     padding: 50px 0;
