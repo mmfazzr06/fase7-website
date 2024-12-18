@@ -169,30 +169,49 @@ body {
 }
 
 /* Judul pendaftaran */
-.pendaftaran-lomba h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Paragraf informasi */
-.pendaftaran-lomba p {
-  font-size: 16px;
+.daftar {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
   margin-bottom: 20px;
 }
 
-/* Tombol isi formulir */
-.pendaftaran-lomba button {
-  background-color: #4CAF50; /* Warna hijau */
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.description {
+  text-align: justify;
+  line-height: 1.5;
+  color: #666;
 }
 
-/* Informasi kontak */
-.pendaftaran-lomba .kontak {
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #4CAF50; /* Hijau */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.contact-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.disclaimer {
+  text-align: center;
   font-size: 14px;
   color: #888;
   margin-top: 20px;
