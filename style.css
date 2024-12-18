@@ -83,6 +83,64 @@ body {
 /* Portfolio / Lomba Section */
 
 
+.portofolio {
+    background-color: black;
+}
+
+.portofolio h1 {
+    color: white;
+}
+
+.row {
+    padding: 5%;
+}
+.contact {
+    padding: 60px 0;
+    padding-left: 50px 0;
+}
+.contact hr {
+    width: 250px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.contact form {
+    background-color: gray;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.contact .form-control {
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 15px;
+    font-size: 1rem;
+}
+.contact .btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+.contact .btn:hover {
+    background-color: #161515;
+}
+
+.contact .btn:focus {
+    box-shadow: none;
+}
+
+.contact p {
+    font-size: 1rem;
+    color: black
+}
+.contact h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
 .card-img-top {
     transition: transform 0.3s ease;
 }
@@ -127,45 +185,9 @@ body {
         font-size: 0.875rem;
     }
 }
-/* Juknis Section */
-.contact {
-    padding: 50px 0;
-    background-color: #fff;
-}
 
-.contact h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.contact-info {
-    margin-top: 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #555;
-}
-
-.contact span {
-    color: #0d6efd;
-}
-
-.contact .button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #fff;
-    background-color: #0d6efd;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.contact .button:hover {
-    background-color: #0a58ca;
+.Copyright{
+    color: rgb(0, 0, 0);
 }
 
 #daftar {
