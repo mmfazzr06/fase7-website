@@ -263,3 +263,20 @@ body {
     border-top: 1px solid #dee2e6; /* Border above the disclaimer */
     padding-top: 10px;
 }
+#portofolio .button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #007bff; /* Border on the button */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#portofolio .button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
