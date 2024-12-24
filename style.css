@@ -48,7 +48,7 @@ body {
 
 /* Hero Section */
 .jumbotron {
-    background: url('img/hero-bg.jpg') no-repeat center center/cover;
+    background: url('gambar.png') no-repeat center center/cover;
     min-height: 100vh;
     color: #fff;
     text-align: center;
