@@ -48,22 +48,9 @@ body {
 
 /* Hero Section */
 .jumbotron {
-    background-image: url(gambar.JPG);
+    background-image: url(IMG_9143.JPG);
     background-size: contain;
-    min-height: 100vh;
-    color: #fff;
-    text-align: center;
 }
-
-.jumbotron h1 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.jumbotron p {
-    font-size: 1.5rem;
-}
-
 /* About Section */
 .about {
     background-color: #fff;
