@@ -179,60 +179,79 @@ body {
 }
 
 /* Daftar Section */
-.daftar {
+#daftar {
+    text-align: center;
     padding: 50px 0;
     background-color: #f8f9fa;
+    border: 2px solid #dee2e6; /* Border around the section */
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
 
-.daftar h1 {
+#daftar h1 {
     font-size: 2.5rem;
+    color: #343a40;
     font-weight: bold;
     margin-bottom: 20px;
-}
-
-.daftar .description {
-    font-size: 1rem;
-    margin-bottom: 20px;
-}
-
-.daftar .button {
+    border-bottom: 2px solid #007bff; /* Border under heading */
     display: inline-block;
-    margin: 10px auto;
-    padding: 10px 30px;
-    background-color: #28a745;
-    color: #fff;
-    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+
+#daftar .description {
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    border: 1px solid #dee2e6; /* Border around the description */
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ffffff; /* White background for the description */
+}
+
+#daftar .button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    border: 2px solid #007bff; /* Border on the button */
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
-.daftar .button:hover {
-    background-color: #218838;
+#daftar .button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
 }
 
-/* Footer */
-footer {
-    background-color: #212529;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+#daftar .contact-info {
+    font-size: 1rem;
+    color: #555555;
+    margin-top: 20px;
+    line-height: 1.4;
+    border: 1px solid #dee2e6; /* Border around the contact info */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ffffff;
 }
 
-footer p {
-    margin: 5px 0;
-    font-size: 0.9rem;
+#daftar .contact-info span {
+    font-weight: bold;
+    color: #333333;
 }
 
-footer p a {
-    color: #0d6efd;
-    text-decoration: none;
+#daftar .disclaimer {
+    font-size: 0.875rem;
+    color: #888888;
+    margin-top: 15px;
+    border-top: 1px solid #dee2e6; /* Border above the disclaimer */
+    padding-top: 10px;
 }
-
-footer p a:hover {
-    text-decoration: underline;
-}
- 
 #portofolio .button {
     display: inline-block;
     padding: 12px 25px;
