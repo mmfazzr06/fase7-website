@@ -12,13 +12,6 @@ body {
     background-color: #f8f9fa;
     color: #333;
 }
-body {
-    padding-top: 60px; /* Menghindari navbar menutupi konten */
-}
-
-.navbar {
-    z-index: 1000; /* Navbar selalu di atas konten */
-}
 
 /* Navbar */
 .navbar {
@@ -61,12 +54,12 @@ body {
 
 .jumbotron p {
     font-size: 1.5rem;
-} 
+}
+
 /* About Section */
 .about {
     background-color: #fff;
     padding: 50px 0;
-    text-align: center;
 }
 
 .about h1 {
@@ -75,205 +68,140 @@ body {
     margin-bottom: 20px;
     color: #333;
 }
-.about p {
-    text-align: center;
-}
 
 /* Portfolio / Lomba Section */
-
-
 .portofolio {
-    background-color: black;
+    padding: 50px 0;
+    background-color: #f8f9fa;
 }
 
 .portofolio h1 {
-    color: white;
-}
-
-.row {
-    padding: 5%;
-}
-.contact {
-    padding-left: 50px 0;
-}
-.contact hr {
-    width: 250px;
-    margin: auto;
-    border: 2px solid black;
-}
-
-.contact form {
-    background-color: gray;
-    padding: 30px;
-    border-radius: 8px;
-}
-
-.contact .form-control {
-    border-radius: 10px;
-    border: 2px solid;
-    padding: 15px;
-    font-size: 1rem;
-}
-.contact .btn {
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-.contact .btn:hover {
-    background-color: #161515;
-}
-
-.contact .btn:focus {
-    box-shadow: none;
-}
-
-.contact p {
-    font-size: 1rem;
-    color: black
-}
-.contact h1 {
     font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
     color: #333;
 }
-.card-img-top {
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
     transition: transform 0.3s ease;
 }
 
-.card-img-top:hover {
-    transform: scale(1.1);
-}
-/* Styling the cards */
-.card {
-    width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.card:hover {
+    transform: translateY(-10px);
 }
 
-/* Responsive Image */
-.card-img-top {
-    width: 100%;
-    height: auto;
-    border-radius: 10px 10px 0 0;
-}
-
-/* Centering Text */
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #333;
 }
 
-.card-text {
+.card-text a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.card-text a:hover {
+    text-decoration: underline;
+}
+
+/* Juknis Section */
+.contact {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    margin-top: 20px;
     font-size: 1rem;
+    font-weight: bold;
     color: #555;
 }
 
-/* Media Query for responsiveness */
-@media (max-width: 768px) {
-    .card-title {
-        font-size: 1rem;
-    }
-
-    .card-text {
-        font-size: 0.875rem;
-    }
+.contact span {
+    color: #0d6efd;
 }
 
-.Copyright{
-    color: rgb(0, 0, 0);
+.contact .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
-#daftar {
-    text-align: center;
+
+.contact .button:hover {
+    background-color: #0a58ca;
+}
+
+/* Daftar Section */
+.daftar {
     padding: 50px 0;
     background-color: #f8f9fa;
-    border: 2px solid #dee2e6; /* Border around the section */
-    border-radius: 8px;
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
 
-#daftar h1 {
+.daftar h1 {
     font-size: 2.5rem;
-    color: #343a40;
     font-weight: bold;
     margin-bottom: 20px;
-    border-bottom: 2px solid #007bff; /* Border under heading */
-    display: inline-block;
-    padding-bottom: 5px;
 }
 
-#daftar .description {
-    font-size: 1.1rem;
-    color: #555555;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    border: 1px solid #dee2e6; /* Border around the description */
-    border-radius: 8px;
-    padding: 15px;
-    background-color: #ffffff; /* White background for the description */
-}
-
-#daftar .button {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: #007bff;
-    color: #ffffff;
+.daftar .description {
     font-size: 1rem;
-    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.daftar .button {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 30px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 1.2rem;
     text-decoration: none;
     border-radius: 5px;
-    border: 2px solid #007bff; /* Border on the button */
-    transition: background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
-#daftar .button:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+.daftar .button:hover {
+    background-color: #218838;
 }
 
-#daftar .contact-info {
-    font-size: 1rem;
-    color: #555555;
-    margin-top: 20px;
-    line-height: 1.4;
-    border: 1px solid #dee2e6; /* Border around the contact info */
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #ffffff;
+/* Footer */
+footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-#daftar .contact-info span {
-    font-weight: bold;
-    color: #333333;
+footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
 }
 
-#daftar .disclaimer {
-    font-size: 0.875rem;
-    color: #888888;
-    margin-top: 15px;
-    border-top: 1px solid #dee2e6; /* Border above the disclaimer */
-    padding-top: 10px;
-}
-#portofolio .button {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: #007bff;
-    color: #ffffff;
-    font-size: 1rem;
-    font-weight: bold;
+footer p a {
+    color: #0d6efd;
     text-decoration: none;
-    border-radius: 5px;
-    border: 2px solid #007bff; /* Border on the button */
-    transition: background-color 0.3s, border-color 0.3s;
 }
 
-#portofolio .button:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+footer p a:hover {
+    text-decoration: underline;
 }
