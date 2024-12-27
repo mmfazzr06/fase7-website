@@ -41,7 +41,7 @@ body {
 
 /* Hero Section */
 .jumbotron {
-    background: url('gambar.jpg') no-repeat center center / cover;
+    background: url('gambar.jpg') no-repeat right center / cover;
     padding-top: 250px;
     padding-bottom: 45px;
     color: #fff;
