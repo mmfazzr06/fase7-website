@@ -43,7 +43,7 @@ body {
 .jumbotron {
     .jumbotron {
     background: url('gambar.jpg') no-repeat;
-    background-position: 175% center; /* Geser gambar sepenuhnya ke kanan */
+    background-position: 500% center; /* Geser gambar sepenuhnya ke kanan */
     background-size: cover; /* Pastikan gambar tetap menutupi seluruh area */
     padding-top: 250px;
     padding-bottom: 45px;
