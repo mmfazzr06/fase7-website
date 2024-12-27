@@ -41,9 +41,13 @@ body {
 
 /* Hero Section */
 .jumbotron {
-    background-image: url('gambar.jpg');
-    background-size: contain;
+    background: url('gambar.jpg') no-repeat center center / cover;
+    padding-top: 250px;
+    padding-bottom: 45px;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Memberikan bayangan pada teks agar kontras */
 }
+
 
 /* About Section */
 .about {
